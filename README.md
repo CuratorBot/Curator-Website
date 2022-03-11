@@ -1,11 +1,49 @@
-# Vue 3 + Typescript + Vite
+# Curator Main Website
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Curator main website frontend and dashboard source code.
 
-## Recommended IDE Setup
+- Website (Under Development)
+- Docs (Under Development)
+- Github (https://github.com/CuratorBot)
+- Bot (https://top.gg/bot/816152179101663312)
+- Bot Status (https://curator.instatus.com/)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Prerequisites:
 
-## Type Support For `.vue` Imports in TS
+[Node.js](https://nodejs.org/en/)
+[Yarn](https://yarnpkg.com/)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+## How to Setup Envrionment
+
+1. Clone Project.
+    ```
+    git clone https://github.com/CuratorBot/Curator-Website.git
+    ```
+
+2. Change Directory to Project.
+    ```
+    cd Curator-Website
+    ```
+
+3. Install dependencies using yarn.
+    ```
+    yarn
+    ```
+
+## How to Run Environment
+
+- Development (HMR)
+    ```
+    yarn dev
+    ```
+
+- Production Build
+    ```
+    yarn build
+    ```
+
+- Production Preview Build (no HMR)
+    ```
+    yarn build
+    yarn preview
+    ```
