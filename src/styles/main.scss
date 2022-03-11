@@ -4,7 +4,10 @@
 @tailwind utilities;
 
 body {
-  /* @apply bg-color; */
+  @apply bg-primary-base;
+  @apply text-lime-50;
+  @apply mt-[60px];
+  @apply text-center;
 }
 
 /* Heading Sizes */

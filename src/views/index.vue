@@ -2,8 +2,14 @@
 
 <template>
   <div class="home">
-    <h1><i class="fa-brands fa-discord"></i> Discord</h1>
+    <h1>
+      <i class="fa-brands fa-discord"></i> Discord
+    </h1>
   </div>
 </template>
 
-<style></style>
+<style lang="scss">
+.home {
+  @apply max-h-screen;
+}
+</style>

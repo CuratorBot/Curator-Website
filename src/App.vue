@@ -1,22 +1,11 @@
 <script lang="ts" setup>
-import TheNavbar from "@/components/TheNavBar.vue";
+import Navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
-  <TheNavbar />
-  <div class="container">
-    <router-view></router-view>
-  </div>
+  <Navbar />
+  <router-view></router-view>
 </template>
 
-<style lang="css">
-#app {
-  text-align: center;
-  color: #cecece;
-  margin-top: 60px;
-}
-
-body {
-  background-color: #212121;
-}
+<style lang="scss">
 </style>
