@@ -9,8 +9,7 @@ export const routes: RouteRecordRaw[] = [
         component: Home,
     },
     {
-        path: "/dashboard",
-        name: "Dashboard",
-        component: () => import("@/views/dashboard.vue"),
+        path: "/dashboard/:serverID/settings",
+        component: () => import("@/views/dashboard/[serverID]/settings.vue")
     },
 ];
